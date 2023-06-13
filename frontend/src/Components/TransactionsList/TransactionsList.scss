@@ -1,0 +1,25 @@
+.transactions_container {
+    margin-top: 30px;
+    width: 100%;
+
+    table {
+        width: 100%;
+
+        tr {
+            height: 50px;
+
+            th,
+            td {
+                text-align: left;
+            }
+
+            th.button_column {
+                width: 250px;
+            }
+
+            .btn {
+                width: 100%;
+            }
+        }
+    }
+}

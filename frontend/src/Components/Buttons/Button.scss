@@ -1,0 +1,37 @@
+.btn {
+    padding: 10px 22px;
+    background-color: var(--primary);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none !important;
+    text-align: center;
+    border: none;
+    outline: none;
+    border: 3px solid transparent;
+    border-radius: 3px;
+    transition: 0.2s all;
+    display: block;
+
+    &.disconnect {
+        background-color: transparent;
+        color: var(--primary);
+    }
+
+    &.transparent {
+        background-color: transparent;
+        color: var(--primary);
+        border: 3px solid var(--primary);
+    }
+
+    &:hover {
+        filter: brightness(1.1);
+        cursor: pointer;
+    }
+
+    @media screen and (max-width: 750px) {
+        padding: 5px 7px;
+        font-size: 14px;
+    }
+}
